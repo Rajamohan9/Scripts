@@ -1,3 +1,4 @@
+cat << 'EOF' > ~/testssl/testssl_bulk.sh
 #!/bin/bash
 
 ### CONFIG
@@ -80,3 +81,4 @@ while read -r domain; do
 done < "$TARGET_FILE"
 
 echo "[✓] All scans completed successfully"
+EOF
